@@ -50,10 +50,10 @@ Lakukan Clone Project/Unduh manual .
 
 Aktifkan Xampp Control Panel, lalu akses ke http://localhost/phpmyadmin/.
 
-Buat database dengan nama 'pos'.
+Buat database dengan nama 'bunutwetan'.
 
 Jika melakukan Clone Project, rename file .env.example dengan env dan hubungkan
-database nya dengan mengisikan nama database, 'DB_DATABASE=pos'.
+database nya dengan mengisikan nama database, 'DB_DATABASE=bunutwetan'.
 
 
 Kemudian, Ketik pada terminal :
@@ -67,7 +67,7 @@ Lalu ketik juga
 php artisan migrate:fresh --seed
 ```
 
-**Atau**, import langsung database menggunakan file **`bunutwetan.sql`** (misalnya melalui phpMyAdmin) ke dalam database bernama `pos` yang telah dibuat sebelumnya.
+**Atau**, import langsung database menggunakan file **`bunutwetan.sql`** (misalnya melalui phpMyAdmin) ke dalam database bernama `bunutwetan` yang telah dibuat sebelumnya.
 
 
 Jalankan aplikasi 
